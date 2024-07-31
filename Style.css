@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: black;
+    color:white;
+    padding:16px 0;
+    text-align: center;
+}
+#products{
+ display: flex;
+    justify-content: space-around;
+
+}
+
+
+.product{
+   
+    border:2px solid;
+    padding:15px;
+    margin:20px;
+    
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: rgb(59, 222, 211);
+}
+button{
+    background-color: black;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border:none;
+
+}
+.product:hover{
+    background-color: red;
+    background-color:gainsboro
+}
+footer{
+    background-color: black;
+    color:white;
+    padding:15px;text-align: center;
+    position: fixed;
+    width:100%;
+
+   bottom:0;
+
+}

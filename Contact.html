@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    
+<form>
+    <style>
+     
+ul{
+  margin-top: 0;
+        list-style-type: none;
+        background-color:black;
+        padding: 10px;
+        text-align: center;
+    }
+   ul li{
+        display: inline-flex;
+      
+       
+        margin-right:25px;
+
+    }
+    ul li a{
+     
+text-decoration: none;
+color:white;
+font-weight: bold;
+font-size: 20px;
+    }
+     
+    input[type=text], select , input[type=email], input[type=number],textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 10px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+     
+      }
+      
+      input[type=submit] {
+     
+        width: 100%;
+        background-color: #27e321;
+        color: white;
+        padding: 14px 20px;
+        margin: 50px 0;
+        border:none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #2b6b19;
+      }
+      
+      div {
+        border-radius: 10px;
+        background-color: rgb(144, 208, 214);
+        padding: 50px;
+      
+    }
+    div{
+      margin-top: 5%;
+      margin-left: 30%;
+    margin-right: 30%;
+    }
+      </style>
+       <header>
+        <ul>
+            
+            <li><a href="./index.html">Home</a> </li>
+            <li><a href="./Product.html">Product</a> </li>
+             <li><a href="./About.html">About</a></li>
+              <li><a href="./Contact.html">Contact</a> </li>
+        </ul>
+    </header>
+    
+      <body>
+       
+      
+      
+  <div>
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."  required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      
+          <label for="Gender">Gender</label>
+          <select id="Gender" name="Gender">
+            <option value="Select">-Select-</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            
+           
+          </select>
+        <br><label for="number">Contact Number</label>
+          <input type="number" id="number" name="number" placeholder="Contact Number.." required>
+        <label for="mail">E-mail Id</label>
+         <input type="email" id="mail"  placeholder="Your  Email Id.." required>
+         <label for="message">Feedback</label>
+         <textarea id="message">Enter your Feedback</textarea>
+          <input type="submit" value="Submit"><br><br>
+
+         
+        </form>
+    </div>
+    
+</body>
+</html>
